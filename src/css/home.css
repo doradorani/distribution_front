@@ -1,0 +1,135 @@
+#home_wrap {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1; /* Header 아래에 위치 */
+    overflow-y: hidden;
+}
+
+.home_main_img > img {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+}
+
+.home_section1 {
+    background-color: rgba(200, 200, 200, 0.1);
+    height: 100vh;
+    font-family: 'yg-jalnan';
+    color: white;
+    font-size: 3em;
+}
+
+.home_section1 > div {
+    /* margin: 0 auto; */
+    padding-top: 260px;
+    line-height: 100vh;
+    text-align: center;
+}
+
+.main_home_subtitle > p {
+    line-height: 80px;
+}
+
+.main_home_subtitle > p:nth-child(2) {
+    margin-top: 55px;
+    font-size: 3em;
+}
+
+.home_section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    height: 700px;
+}
+
+.home_section2 > div > img {
+    width: 470px;
+    height: 630px;
+    margin-right: 100px;
+    /* margin-left: 370px;
+    margin-top: 35px;
+    margin-bottom: 35px; */
+}
+
+.home_section2_content > div {
+    font-family: 'yg-jalnan';
+}
+
+.home_section2_content > div:nth-child(1) {
+    height: 50px;
+    line-height: 50px;
+}
+
+.home_section2_content > div:nth-child(2) {
+    height: 200px;
+    line-height: 200px;
+}
+
+.home_section2_content > button {
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'yg-jalnan';
+}
+
+.home_section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 600px;
+}
+
+.home_section3 > div > img {
+    width: 650px;
+    height: 470px;
+    margin-left: 100px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.home_section3_content > div {
+    font-family: 'yg-jalnan';
+}
+
+.home_section3_content > div:nth-child(1) {
+    height: 50px;
+    line-height: 50px;
+}
+
+.home_section3_content > div:nth-child(2) {
+    height: 200px;
+    line-height: 200px;
+}
+
+.home_section3_content > button {
+    height: 30px;
+    width: 160px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'yg-jalnan';
+}
+
+.home_section4 {
+    background-color: #f7f7f7;
+    height: 700px;
+}
+
+.home_section2_content.reveal {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.home_section3_content.reveal {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s, transform 0.5s;
+}
