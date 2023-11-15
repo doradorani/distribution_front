@@ -1,0 +1,128 @@
+.swal2-container {
+    font-family: 'yg-jalnan';
+}
+
+.magazine {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.diary_main_img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+.post_full_section {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.diary_flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 80px 0px 80px;
+}
+
+.magazine {
+    margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.magazine .detail_page {
+    height: 100%;
+    background-color: white;
+}
+
+.magazine .detail_page img {
+    min-width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.turn_js_wrap {
+    padding: 89px 0;
+}
+
+.diary_background_container {
+    background-image: url('https://s3.ap-northeast-2.amazonaws.com/agijagi-2023.10.31/diary.jpg');
+    background-size: cover;
+    /* object-fit: cover; */
+    background-position: center;
+    min-height: 800px;
+    border-radius: 15px;
+}
+
+.area_for_diary_detail {
+    /* height: 110vh; */
+    /* height: 100%; */
+    margin: 10px;
+}
+
+.diary_img_in_page {
+    height: 40%;
+}
+
+.child_register_btn {
+    float: right !important;
+}
+
+.right {
+    float: right;
+}
+
+div.magazine > div:nth-child(2) div.diary_btn .diary_next_btn,
+div.magazine > div:first-child div.diary_btn .diary_prev_btn,
+div.magazine > div:nth-child(2) div.diary_btn .diary_prev_btn,
+div.magazine > div:nth-child(2n + 3) div.diary_btn .diary_next_btn,
+div.magazine > div:nth-child(2n + 4) div.diary_btn .diary_prev_btn,
+div.magazine > div:last-child div.diary_btn .diary_next_btn {
+    display: none;
+}
+
+.diary_detail_btn {
+    position: relative;
+    text-align: center;
+}
+
+.diary_detail_btn > span.background_for_book_detail {
+    position: absolute;
+    background-color: #000;
+    top: 55px;
+    left: 0;
+    width: 450px;
+    height: 350px;
+    opacity: 0;
+}
+
+.diary_detail_btn:hover > span.background_for_book_detail {
+    opacity: 0.4;
+}
+
+.diary_detail_btn:hover > div {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+}
+
+div .diary_detail_btn > div {
+    position: absolute;
+    opacity: 0;
+    counter-reset: #fff;
+    top: 55px;
+    left: 0;
+    padding-top: 35%;
+    padding-left: 35%;
+    width: 450px;
+    height: 350px;
+    z-index: 10;
+    color: #fff;
+}
+
+div.magazine > div:only-child div.diary_btn .diary_next_btn {
+    display: none !important;
+}

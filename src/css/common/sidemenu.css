@@ -1,0 +1,47 @@
+.side_menu_wrap {
+    position: sticky;
+    /* height: calc(100vh-88px);
+    min-width: 288px; */
+    /* overflow-y: scroll; */
+    /* top: 24px;
+    width: 288px; */
+    width: 20%;         
+    /*sticky가 적용될 요소는 꼭 height값이 있어야 함*/   
+    height: 650px; 
+    top: 100px; 
+}
+
+.side_menu_btn {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    display: flex;
+    width: 260px;
+    height: 56px;
+    padding-left: 24px;
+    padding-right: 16px;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+.side_menu_btn:hover {
+    background-color: #C8E5FE;
+}
+
+.side_menu_sub_btn {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    display: flex;
+    width: 260px;
+    height: 56px;
+    padding-left: 50px;
+    padding-right: 16px;
+    border-radius: 10px;
+}
+
+.side_menu_sub_btn:hover {
+    background-color: #C8E5FE;
+}

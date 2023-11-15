@@ -1,0 +1,74 @@
+.admin_post_report_wrap {
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.post_report {
+    width: 100%;
+}
+
+table.NonCollapsed > thead > tr > th:nth-child(1),
+table.NonCollapsed > tbody > tr > td:nth-child(1) {
+    width: 54.25px;
+}
+table.NonCollapsed > thead > tr > th:nth-child(2),
+table.NonCollapsed > tbody > tr > td:nth-child(2) {
+    width: 104.5px;
+}
+table.NonCollapsed > thead > tr > th:nth-child(3),
+table.NonCollapsed > tbody > tr > td:nth-child(3),
+table.NonCollapsed > tbody > tr > td:nth-child(3) > a {
+    width: 316.4px;
+}
+
+table.Collapsed > thead > tr > th:nth-child(3),
+table.Collapsed > tbody > tr > td:nth-child(3),
+table.Collapsed > tbody > tr > td:nth-child(3) > a {
+    width: 126.4px;
+}
+
+table.NonCollapsed > thead > tr > th:nth-child(4),
+table.NonCollapsed > tbody > tr > td:nth-child(4),
+table.Collapsed > thead > tr > th:nth-child(4),
+table.Collapsed > tbody > tr > td:nth-child(4) {
+    width: 141.5px;
+}
+table.NonCollapsed > thead > tr > th:nth-child(5),
+table.NonCollapsed > tbody > tr > td:nth-child(5) {
+    width: 115.65px;
+}
+table.NonCollapsed > thead > tr > th:nth-child(6),
+table.NonCollapsed > tbody > tr > td:nth-child(6),
+table.Collapsed > thead > tr > th:nth-child(6),
+table.Collapsed > tbody > tr > td:nth-child(6) {
+    width: 141.65px;
+}
+table.NonCollapsed > thead > tr > th:nth-child(7),
+table.NonCollapsed > tbody > tr > td:nth-child(7) {
+    width: 102.8px;
+}
+table.NonCollapsed > thead > tr > th:nth-child(8),
+table.NonCollapsed > tbody > tr > td:nth-child(8) {
+    width: 102.8px;
+}
+
+table.NonCollapsed > thead > tr > th:nth-child(9),
+table.Collapsed > thead > tr > th:nth-child(9) {
+    width: 221.3px;
+}
+
+table.NonCollapsed > tbody > tr > td:nth-child(9),
+table.NonCollapsed > tbody > tr > td:nth-child(10),
+table.Collapsed > tbody > tr > td:nth-child(9),
+table.Collapsed > tbody > tr > td:nth-child(10) {
+    width: 110.65px;
+}
+table.NonCollapsed button,
+table.Collapsed button {
+    width: 90px;
+}
+
+tr.disable_row td,
+tr.disable_row td > a {
+    color: #a4a5a5;
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+.none_underline:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body::-webkit-scrollbar {
+    width: 10px; /* 스크롤바의 너비 */
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #d7d4cd; /* 스크롤바의 색상 */
+
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, 0.1); /*스크롤바 뒷 배경 색상*/
+}
+
+.yg_font {
+    font-family: 'yg-jalnan';
+}
+
+.nn_font {
+    font-family: 'NanumSquareRound';
+}
+
+/* .nn_font_bold {
+    font-family: 'NanumSquareRound';
+    font-weight: bold;
+} */
+
+.btn {
+    font-family: 'yg-jalnan';
+}
+
+.btn:focus {
+    font-family: 'yg-jalnan';
+    box-shadow: none;
+}
+
+.none_deco_link:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.hover_cursor:hover {
+    cursor: pointer;
+}

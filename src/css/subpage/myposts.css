@@ -1,0 +1,127 @@
+.my_posts_wrap {
+    width: 730px;
+}
+
+.my_posts_profile_wrap {
+    width: 650px;
+    margin: 10px auto;
+    margin-bottom: 40px;
+}
+
+.flex_for_my_posts_profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my_posts_profile_img > img {
+    max-width: 120px;
+    max-height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    border-radius: 100%;
+}
+
+.my_post_profile_info {
+    margin-left: 35px;
+    padding-top: 10px;
+}
+
+.my_posts_profile_name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.my_posts_cnt {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #000;
+}
+
+.my_posts_profile_nickname {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000;
+}
+
+.my_posts_post_main_img {
+    position: relative;
+}
+
+.my_posts_post_main_img > span.background_for_posts {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 310px;
+    height: 240px;
+    background-color: #000;
+    opacity: 0;
+}
+
+.my_posts_post_main_img:hover > span.background_for_posts {
+    opacity: 0.4;
+    border-radius: 15px;
+}
+
+.my_posts_post_main_img:hover > div {
+    opacity: 1;
+}
+
+div .my_posts_post_main_img > div {
+    width: 310px;
+    height: 240px;
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    padding-top: 105px;
+    padding-left: 90px;
+    opacity: 0;
+    counter-reset: #fff;
+    z-index: 10;
+}
+
+/* .my_posts_post_main_img > div:nth-child(1):hover {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    opacity: 0.4;
+} */
+
+/* .my_posts_post_main_img > div:nth-child(2):hover {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    opacity: 1;
+} */
+
+.my_posts_post_main_img > img,
+.my_posts_contents_wrap > button {
+    margin: 30px 20px 0px 20px;
+    max-width: 310px;
+    max-height: 240px;
+    min-width: 310px;
+    min-height: 240px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.my_posts_contents_wrap {
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my_post_title {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.division_line_in_posts {
+    margin: 0 auto;
+    width: 900px;
+}

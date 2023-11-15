@@ -1,0 +1,53 @@
+.user_modify_profile_wrap {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+.input_admin_info_box_wrap_for_signup {
+    border: 1px solid #dadada;
+    box-shadow: 0px 0px 4px #7d8392;
+}
+
+.profile_img_for_modify {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 1px solid #dadada;
+}
+
+.add_a_photo_img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    justify-content: center;
+    position: absolute;
+    background-color: #7d8392;
+    bottom: 20px;
+    right: 110px;
+}
+
+.add_a_photo_img:hover {
+    background-color: #2c3e50;
+}
+
+.add_a_photo_img_log {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.btn_user_modify_cancel {
+    background-color: #eff0f3;
+}
+
+.btn_user_modify_cancel:hover {
+    background-color: #e4e5e8;
+}

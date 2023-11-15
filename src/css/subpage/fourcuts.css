@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.four_cuts_album_wrap {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.four_cuts_album_containter {
+    font-family: 'LeeSeoyun';
+    width: 390px;
+    background-color: #ff9d73;
+    height: 100%;
+}
+
+.four_cuts_photos {
+    margin-top: 30px;
+}
+
+.photo_frame {
+    background-color: white;
+    margin: 15px 20px;
+    height: 200px;
+    position: relative;
+    /* cursor: pointer; */
+    overflow: hidden;
+}
+
+#cuts_img1,
+#cuts_img2,
+#cuts_img3,
+#cuts_img0 {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+.four_cust_header {
+    display: flex;
+    flex-direction: column;
+}
+.four_cust_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f_title {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+
+.f_date {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.photo_description {
+    color: white;
+    background-color: black;
+
+    width: fit-content;
+    padding: 0 20px;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+
+    transform: translate(-50%);
+    left: 50%;
+
+    opacity: 0;
+}
+
+.four_cuts_show_text {
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+.four_cuts_hide_text {
+    opacity: 0;
+}
+
+#desc0,
+#desc1,
+#desc2,
+#desc3 {
+}

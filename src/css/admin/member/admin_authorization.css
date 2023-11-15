@@ -1,0 +1,24 @@
+.admin_authorization_wrap {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.admin_authorization_second_wrap {
+    width: 90%;
+    margin: 0 auto;
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.admin_authorization {
+    width: 100%;
+}
+
+.user_detail_wrap_for_admin {
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid #dadada;
+    box-shadow: 0px 0px 4px #7d8392;
+}

@@ -1,0 +1,98 @@
+.admin_login_wrap {
+    margin: 0 auto;
+}
+
+.admin_login_wrap > img {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: -50;
+}
+
+.admin_login_background {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: -10;
+    background-color: rgba(100, 100, 100, 0.3);
+}
+
+.input_admin_info_box_wrap {
+    margin: 100px auto;
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.input_admin_info_box_wrap_for_signup {
+    margin: 0px auto;
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.logo_wrap_admin_login {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+.logo_wrap_admin_login > img {
+    width: 80px;
+}
+
+.input_admin_info_box {
+    margin: 30px auto;
+    width: 400px;
+}
+
+.input_admin_info_box_for_signup {
+    margin: 40px auto;
+    width: 400px;
+}
+
+.admin_login_title {
+    font-size: 1.7em;
+}
+
+.btn_for_admin_signup {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_admin_login {
+    background-color: #c9e6ff;
+}
+
+.btn_admin_login:hover {
+    background-color: #95c1eb;
+}
+
+.custom_floating_label {
+    /* background-color: #c9e6ff; */
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #c9e6ff;
+}
+
+.custom_floating_label:focus {
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    border-bottom: 3px solid #95c1eb;
+}
+
+.sign_up_phone {
+    -webkit-appearance: none;
+}
+
+input.sign_up_phone::-webkit-outer-spin-button,
+input.sign_up_phone::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

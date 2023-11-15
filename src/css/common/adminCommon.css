@@ -1,0 +1,23 @@
+.admin_page_menu_title_wrap {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.admin_page_menu_title_wrap > img {
+    width: 60px;
+    height: 60px;
+}
+
+div.admin_page_menu_title {
+    font-size: 2.3em;
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+.admin_page_menu_sub_title {
+    font-size: 1.4em;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}

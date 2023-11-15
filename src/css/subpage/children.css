@@ -1,0 +1,64 @@
+.children_wrap {
+    background-color: #ff4898;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 5px;
+    margin: 0 10px;
+    min-height: 35vh;
+    font-family: 'yg-jalnan';
+    /* opacity: 0.8; */
+}
+
+.children_container {
+    background-color: #fff;
+    min-height: 30vh;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.children_second_wrap {
+    flex-direction: column;
+}
+
+.children_input {
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.children_header_title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.react-datepicker__input-container > input {
+    border: none;
+    width: 100px;
+}
+.children_submit_button {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.children_submit_button > a > input {
+    background-color: #ff4898;
+    opacity: 0.8;
+    border: 1px solid #ff4898;
+}
+
+.children_submit_button > a > input:hover {
+    background-color: #ff4898;
+    border: 1px solid #ff4898;
+    color: #000;
+}
+
+.children_header {
+    justify-content: space-between;
+}
+.children_header_title {
+    width: 100%;
+}
+
+.single_btn {
+    display: none;
+}

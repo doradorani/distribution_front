@@ -1,0 +1,85 @@
+.admin_container {
+    min-height: 85vh;
+    display: flex;
+}
+
+#admin_header_wrap {
+    position: relative;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 4px -4px black;
+    z-index: 50;
+    height: 8vh;
+}
+
+.admin_logo_container {
+    width: 50%;
+    margin-left: 30px;
+    font-family: 'yg-jalnan';
+    font-size: 2em;
+    display: flex;
+}
+
+.admin_logo_img {
+    width: 40px;
+}
+
+.admin_logo_container a {
+    text-decoration: none;
+}
+
+.admin_logo_container a:hover {
+    color: #2c3e50;
+}
+
+.admin_header_logo_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* 네비게이션 부분 스타일 */
+.admin_nav_bar {
+    /* position: fixed; */
+    display: flex; /* 네비게이션 링크를 가로로 나열하기 위한 Flexbox 설정 */
+    justify-content: center; /* 네비게이션 링크를 가로 중앙 정렬 */
+    gap: 70px; /* 링크 사이의 간격 설정 */
+    font-family: 'yg-jalnan';
+    font-size: 1em;
+    align-items: center;
+}
+
+.admin_nav_bar a {
+    /* color: black; */
+    text-decoration: none;
+}
+
+.admin_nav_bar a:hover {
+    /* color: black; */
+    text-decoration: none;
+}
+
+/* 로그인 버튼 부분 스타일 */
+
+.admin_btn_page {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-right: 35px;
+}
+
+.admin_btn {
+    background-color: #eff0f3;
+    /* color: #455eef; */
+    font-weight: bold;
+}
+
+.admin_btn:hover {
+    background-color: #e4e5e8;
+    /* color: #425AE5; */
+    color: #000;
+}

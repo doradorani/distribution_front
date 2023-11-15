@@ -1,0 +1,21 @@
+.diary_second_wrap {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto;
+}
+
+.diary_section_header {
+    justify-content: space-between;
+}
+
+.go_to_write_health_note > a > input {
+    background-color: #ff4898;
+    opacity: 0.8;
+    border: 1px solid #ff4898;
+}
+
+.go_to_write_health_note > a > input:hover {
+    background-color: #ff4898;
+    border: 1px solid #ff4898;
+    color: #000;
+}

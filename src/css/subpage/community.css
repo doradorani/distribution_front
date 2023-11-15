@@ -1,0 +1,178 @@
+div.community_main_img {
+    width: 100%;
+    max-height: 400px;
+}
+img.community_main_img {
+    /* width: 100%; */
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.flex {
+    display: flex;
+}
+
+.community_flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px 0px 80px;
+}
+
+.community_flex > div {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.adv_img_notice_right {
+    width: 200px;
+    object-fit: cover;
+}
+
+.emotion_btn {
+    width: 30px;
+    height: 30px;
+}
+
+.modap_img_contents {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploaded_preview_img {
+    min-width: 400px;
+    min-height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.modal-lg {
+    max-width: 650px;
+}
+
+.modal-lg-text {
+    max-width: 450px;
+}
+
+.upload_img_btn figure {
+    position: relative;
+    top: 30px;
+}
+
+.upload_img_btn:hover figure {
+    position: relative;
+    top: 0px;
+    background-color: #ffd9df;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.upload_img_btn:hover p {
+    opacity: 1;
+}
+
+.upload_img_btn figure {
+    position: relative;
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload_img_btn p {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background: #fe7a89;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    opacity: 0;
+    transition: 0.5s all;
+    border-radius: 15px;
+}
+
+.deleteBtn {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+
+.for_upload_file {
+    display: none;
+}
+
+.upload_text {
+    border: none;
+    resize: none;
+    width: 320px;
+    height: 250px;
+    overflow-y: visible;
+}
+
+.upload_text:focus {
+    outline: none;
+}
+
+.flex_for_profile_new_post {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex_new_post {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile_info_new_post {
+    margin-left: 15px;
+}
+
+.profile_name_new_post {
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 50px;
+}
+
+.profile_img_new_post > img {
+    margin-left: 70px;
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 100%;
+}
+
+.byte_for_upload {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-bottom: 10px;
+}
+
+.tag_for_sticky {
+    position: sticky;
+    width: 15%;
+    height: 650px;
+    position: sticky;
+    top: 100px;
+}
+
+.post_section {
+    width: 800px;
+    margin-bottom: 45px;
+}
+
+.upload_img_label:hover,
+.upload_img_btn:hover {
+    cursor: pointer;
+}

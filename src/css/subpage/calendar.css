@@ -1,0 +1,12 @@
+#calendar a {
+    text-decoration: none;
+}
+#calendar a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.fc-event-title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,92 @@
+.note_wrap {
+    background-color: #ff4898;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 5px;
+    margin: 0 10px;
+    min-height: 80vh;
+    font-family: 'yg-jalnan';
+    /* opacity: 0.8; */
+}
+
+.note_container {
+    background-color: #fff;
+    min-height: 70vh;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.note_second_wrap {
+    flex-direction: column;
+}
+
+.note_select_options > div {
+    margin: 15px 5px 10px;
+}
+.note_select_date {
+    text-align: right;
+}
+
+.note_header_title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.react-datepicker__input-container > input {
+    border: none;
+    width: 100px;
+}
+.note_input_1 > div > span,
+.note_input_2 > div > span {
+    min-width: 75px;
+    display: inline-block;
+}
+
+.note_input_1 > div > input,
+.note_input_2 > div > input {
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    width: 145px;
+}
+
+.note_input_1,
+.note_input_2 {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.note_input_matters {
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.note_input_matters > textarea {
+    border: 1px solid #dadada;
+    width: 100%;
+    border-radius: 8px;
+    height: 170px;
+    margin-top: 10px;
+}
+
+.byte_for_input_matters_box {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.note_submit_button {
+    text-align: right;
+}
+
+.note_submit_button > a > input {
+    background-color: #ff4898;
+    opacity: 0.8;
+    border: 1px solid #ff4898;
+}
+
+.note_submit_button > a > input:hover {
+    background-color: #ff4898;
+    border: 1px solid #ff4898;
+    color: #000;
+}

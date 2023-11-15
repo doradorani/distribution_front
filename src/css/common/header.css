@@ -1,0 +1,189 @@
+#header_wrap {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 65px;
+    display: flex;
+    z-index: 1050;
+    background-color: white;
+}
+
+#header_wrap_login {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 65px;
+    display: flex;
+    z-index: 1050;
+    background-color: white;
+}
+
+div.logo_wrap {
+    /* margin-top: 5px; */
+    margin-left: 30px;
+    font-family: 'yg-jalnan';
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+
+div.logo_wrap_login {
+    position: fixed;
+    top: 9px;
+    left: 42%;
+    font-family: 'yg-jalnan';
+    font-size: 2em;
+}
+
+div.logo_wrap a {
+    text-decoration: none;
+}
+
+div.logo_wrap a:hover {
+    color: #2c3e50;
+}
+
+img.logo_img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* 네비게이션 부분 스타일 */
+.nav_bar {
+    position: fixed;
+    top: 15px;
+    left: 35%;
+    display: flex; /* 네비게이션 링크를 가로로 나열하기 위한 Flexbox 설정 */
+    justify-content: center; /* 네비게이션 링크를 가로 중앙 정렬 */
+    gap: 80px; /* 링크 사이의 간격 설정 */
+    font-family: 'yg-jalnan';
+    font-size: 1.5em;
+}
+
+.nav_bar a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav_bar a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* 로그인 버튼 부분 스타일 */
+.login_btn_main_page {
+    position: fixed;
+    top: 14px;
+    right: 2%;
+}
+
+.login_btn {
+    background-color: #eff0f3;
+    /* color: #455eef; */
+    font-weight: bold;
+}
+
+.login_btn:hover {
+    background-color: #e4e5e8;
+    /* color: #425AE5; */
+    color: #000;
+}
+
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+
+.menu {
+    display: flex;
+    justify-content: space-around; /* 메뉴 항목을 가로로 공간을 균등하게 배치 */
+    align-items: center; /* 세로 중앙 정렬 */
+    list-style: none; /* 기본 목록 스타일 제거 */
+    padding: 0; /* 목록의 패딩 제거 */
+}
+
+.menu li {
+    margin: 0; /* 각 항목의 마진 제거 */
+}
+
+.menu a {
+    color: #000;
+    font-family: 'yg-jalnan';
+    font-size: 17pt;
+    font-weight: 400;
+    padding: 0px 25px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.SMN_effect-14 a {
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.SMN_effect-14 a:before {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    color: transparent;
+    content: '•';
+    text-shadow: 0 0 transparent;
+    font-size: 13pt;
+    /* -webkit-transition: text-shadow 0.3s, color 0.3s; */
+    /* -moz-transition: text-shadow 0.3s, color 0.3s; */
+    transition: text-shadow 0.3s, color 0.3s;
+    /* -webkit-transform: translateX(-50%); */
+    /* -moz-transform: translateX(-50%); */
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.SMN_effect-14 a:hover:before {
+    color: #0056b3;
+    text-shadow: 10px 0 #0056b3, -10px 0 #0056b3;
+}
+
+.SMN_effect-14 a:hover {
+    color: #0056b3;
+}
+
+.after_login_btn_main_page {
+    position: fixed;
+    top: 8px;
+    right: 2%;
+}
+
+.after_login_btn_main_page > div > a:hover {
+    text-decoration: none;
+}
+
+.after_login_btn_main_page > div > a > span {
+    margin-right: 15px;
+}
+
+.header_user_profile_img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.profile_dropdown_menu_ul {
+    inset: 0px auto auto -15px;
+}
+
+.profile_dropdown_menu_li {
+    padding: 10px;
+    /* color: #0056b3; */
+}
+
+.profile_dropdown_menu_li:hover {
+    background-color: #c8e5fe;
+}
+
+.profile_dropdown_menu_li:active {
+    color: #0056b3;
+}

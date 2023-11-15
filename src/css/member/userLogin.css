@@ -1,0 +1,61 @@
+.user_login_wrap {
+    margin: 0px auto;
+    padding-top: 120px;
+    width: 450px;
+    height: 100vh;
+}
+
+.kakao_login_box {
+    width: 450px;
+    background-color: #ffeb3b;
+    border-radius: 5px;
+    display: flex;
+}
+
+.user_login_title {
+    height: 80px;
+    font-size: 2em;
+}
+
+.user_login_img > img {
+    width: 50px;
+    height: 50px;
+}
+
+.user_login_text_box {
+    color: #3e2723;
+    margin: 13px auto;
+}
+
+.user_login_text_box > a:hover {
+    text-decoration: none;
+}
+
+.link_to_sign_up {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.kakao_login_box_btn {
+    border: none;
+    background-color: none;
+    border-radius: 5px;
+}
+
+.logo_wrap_user_login {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+.logo_wrap_user_login > img {
+    width: 80px;
+}
+
+.logo_wrap_user_login_link:hover {
+    text-decoration: none;
+    color: #2c3e50;
+}

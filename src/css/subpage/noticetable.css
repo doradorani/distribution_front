@@ -1,0 +1,9 @@
+.table {
+    margin-top: 30px;
+    width: 730px;
+}
+
+.notice_table_page_focus:focus {
+    background-color: #f2f2f2;
+    box-shadow: none;
+}
