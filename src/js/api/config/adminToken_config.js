@@ -9,7 +9,7 @@ store.subscribe(() => {
 });
 
 const adminToken_config = {
-    server: 'http://localhost:8088',
+    server: 'https://api.agijagi.site',
     adminTokenName: '',
     adminTokenExpired: '',
 };
